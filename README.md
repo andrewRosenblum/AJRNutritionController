@@ -13,39 +13,8 @@ An Objective-C class to present an animated view with nutritional information. T
 
 This code is iOS 5 & 6 compatiable, storybaord and ARC Compatiable.
 
-Using AJRNutritionController
+Code Available under Branch: `Main-Branch`
 ------------------
-To use `AJRNutritionController` first copy the following files into your project:
-- `AJRNutritionViewController.h`
-- `AJRNutritionViewController.m`
-- `AJRNutritionViewController.xib`
-- `AJRNutritionLabelCalculation.h`
-- `AJRNutritionLabelCalculation.m`
-- `AJRNutritionLabelView.h`
-- `AJRNutritionLabelView.m`
-- `AJRBackgroundDimmer.h`
-- `AJRBackgroundDimmer.m`
-- `CloseButton.png`
-- `CloseButton@2x.png`
-
-Then in the appropiate method, add the following to initalize the view:
-
-    AJRNutritionViewController *controller = [[AJRNutritionViewController alloc] init];
-
-Set the nutrition values as follows:
-
-    controller.servingSize = @"12 fl oz. (1 Can)";
-    controller.calories = 130;
-    controller.fat = 5.5;
-    controller.carbs = 35;
-    controller.sugar = 12;
-    controller.protein = 3.0;
-    
-Finally present the view:
-
-    [controller presentInParentViewController:self];
-
-Check out the included demo for an example
 
 
 Liscense

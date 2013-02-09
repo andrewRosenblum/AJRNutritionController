@@ -45,6 +45,17 @@
     //Present the View
     [controller presentInParentViewController:self];
     
+     /*
+      *Optional Customizations
+      *
+      *controller.shouldDimBackground = YES;              //Default: YES
+      *controllershouldAnimateOnAppear = YES;             //Default: YES
+      *controller.shouldAnimateOnDisappear = YES;         //Default: YES
+      *
+      *By default, the user can perform a swipe gesture (in the downward direction)
+      *to dismiss the popup
+      *controller.allowSwipeToDismiss = YES;              //Default: YES
+      */
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "AJRNutritionViewController.h"
 
 @interface ViewController ()
 
@@ -17,13 +18,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
+- (IBAction)presentNutritionController:(id)sender {
+    
+    //Initalize the nutrition view
+    AJRNutritionViewController *controller = [[AJRNutritionViewController alloc] init];
+    
+    //Set the various data values for the view
+    controller.servingSize = @"12 fl oz. (1 Can)";
+    controller.calories = 100;      //Type: int
+    controller.fat = 5;             //Type: float
+    controller.carbs = 35;          //Type: float
+    controller.sugar = 12;          //Type: float
+    controller.protein = 3;         //Type: float
+    
+    //Present the View
+    [controller presentInParentViewController:self];
+    
+}
+
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

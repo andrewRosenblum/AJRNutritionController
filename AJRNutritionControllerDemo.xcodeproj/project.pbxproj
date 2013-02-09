@@ -18,6 +18,14 @@
 		2448028D16C6DBB300E44C9B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2448028C16C6DBB300E44C9B /* Default-568h@2x.png */; };
 		2448029016C6DBB300E44C9B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2448028E16C6DBB300E44C9B /* MainStoryboard.storyboard */; };
 		2448029316C6DBB300E44C9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2448029216C6DBB300E44C9B /* ViewController.m */; };
+		244802A916C6DC8200E44C9B /* AJRNutritionLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 244802A316C6DC8200E44C9B /* AJRNutritionLabelView.m */; };
+		244802AA16C6DC8200E44C9B /* AJRBackgroundDimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 244802A516C6DC8200E44C9B /* AJRBackgroundDimmer.m */; };
+		244802B516C6DE4000E44C9B /* AJRNutritionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 244802B316C6DE4000E44C9B /* AJRNutritionViewController.m */; };
+		244802B616C6DE4000E44C9B /* AJRNutritionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 244802B416C6DE4000E44C9B /* AJRNutritionViewController.xib */; };
+		244802B816C6DEB900E44C9B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244802B716C6DEB900E44C9B /* QuartzCore.framework */; };
+		244802BF16C6DFE900E44C9B /* CloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 244802BD16C6DFE900E44C9B /* CloseButton.png */; };
+		244802C016C6DFE900E44C9B /* CloseButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 244802BE16C6DFE900E44C9B /* CloseButton@2x.png */; };
+		244802C316C6E02B00E44C9B /* AJRNutritionLabelCalculation.m in Sources */ = {isa = PBXBuildFile; fileRef = 244802C216C6E02B00E44C9B /* AJRNutritionLabelCalculation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +45,18 @@
 		2448028F16C6DBB300E44C9B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		2448029116C6DBB300E44C9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2448029216C6DBB300E44C9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		244802A216C6DC8200E44C9B /* AJRNutritionLabelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJRNutritionLabelView.h; sourceTree = "<group>"; };
+		244802A316C6DC8200E44C9B /* AJRNutritionLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJRNutritionLabelView.m; sourceTree = "<group>"; };
+		244802A416C6DC8200E44C9B /* AJRBackgroundDimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJRBackgroundDimmer.h; sourceTree = "<group>"; };
+		244802A516C6DC8200E44C9B /* AJRBackgroundDimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJRBackgroundDimmer.m; sourceTree = "<group>"; };
+		244802B216C6DE4000E44C9B /* AJRNutritionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJRNutritionViewController.h; sourceTree = "<group>"; };
+		244802B316C6DE4000E44C9B /* AJRNutritionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJRNutritionViewController.m; sourceTree = "<group>"; };
+		244802B416C6DE4000E44C9B /* AJRNutritionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AJRNutritionViewController.xib; sourceTree = "<group>"; };
+		244802B716C6DEB900E44C9B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		244802BD16C6DFE900E44C9B /* CloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseButton.png; sourceTree = "<group>"; };
+		244802BE16C6DFE900E44C9B /* CloseButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CloseButton@2x.png"; sourceTree = "<group>"; };
+		244802C116C6E02B00E44C9B /* AJRNutritionLabelCalculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJRNutritionLabelCalculation.h; sourceTree = "<group>"; };
+		244802C216C6E02B00E44C9B /* AJRNutritionLabelCalculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJRNutritionLabelCalculation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				244802B816C6DEB900E44C9B /* QuartzCore.framework in Frameworks */,
 				2448027716C6DBB300E44C9B /* UIKit.framework in Frameworks */,
 				2448027916C6DBB300E44C9B /* Foundation.framework in Frameworks */,
 				2448027B16C6DBB300E44C9B /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +77,7 @@
 		2448026716C6DBB200E44C9B = {
 			isa = PBXGroup;
 			children = (
+				244802B716C6DEB900E44C9B /* QuartzCore.framework */,
 				2448027C16C6DBB300E44C9B /* AJRNutritionControllerDemo */,
 				2448027516C6DBB300E44C9B /* Frameworks */,
 				2448027316C6DBB300E44C9B /* Products */,
@@ -88,6 +110,7 @@
 				2448028E16C6DBB300E44C9B /* MainStoryboard.storyboard */,
 				2448029116C6DBB300E44C9B /* ViewController.h */,
 				2448029216C6DBB300E44C9B /* ViewController.m */,
+				244802AB16C6DC8900E44C9B /* Nutrition View Files */,
 				2448027D16C6DBB300E44C9B /* Supporting Files */,
 			);
 			path = AJRNutritionControllerDemo;
@@ -105,6 +128,24 @@
 				2448028C16C6DBB300E44C9B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		244802AB16C6DC8900E44C9B /* Nutrition View Files */ = {
+			isa = PBXGroup;
+			children = (
+				244802B216C6DE4000E44C9B /* AJRNutritionViewController.h */,
+				244802B316C6DE4000E44C9B /* AJRNutritionViewController.m */,
+				244802B416C6DE4000E44C9B /* AJRNutritionViewController.xib */,
+				244802C116C6E02B00E44C9B /* AJRNutritionLabelCalculation.h */,
+				244802C216C6E02B00E44C9B /* AJRNutritionLabelCalculation.m */,
+				244802A216C6DC8200E44C9B /* AJRNutritionLabelView.h */,
+				244802A316C6DC8200E44C9B /* AJRNutritionLabelView.m */,
+				244802A416C6DC8200E44C9B /* AJRBackgroundDimmer.h */,
+				244802A516C6DC8200E44C9B /* AJRBackgroundDimmer.m */,
+				244802BD16C6DFE900E44C9B /* CloseButton.png */,
+				244802BE16C6DFE900E44C9B /* CloseButton@2x.png */,
+			);
+			name = "Nutrition View Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +204,9 @@
 				2448028B16C6DBB300E44C9B /* Default@2x.png in Resources */,
 				2448028D16C6DBB300E44C9B /* Default-568h@2x.png in Resources */,
 				2448029016C6DBB300E44C9B /* MainStoryboard.storyboard in Resources */,
+				244802B616C6DE4000E44C9B /* AJRNutritionViewController.xib in Resources */,
+				244802BF16C6DFE900E44C9B /* CloseButton.png in Resources */,
+				244802C016C6DFE900E44C9B /* CloseButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +220,10 @@
 				2448028316C6DBB300E44C9B /* main.m in Sources */,
 				2448028716C6DBB300E44C9B /* AppDelegate.m in Sources */,
 				2448029316C6DBB300E44C9B /* ViewController.m in Sources */,
+				244802A916C6DC8200E44C9B /* AJRNutritionLabelView.m in Sources */,
+				244802AA16C6DC8200E44C9B /* AJRBackgroundDimmer.m in Sources */,
+				244802B516C6DE4000E44C9B /* AJRNutritionViewController.m in Sources */,
+				244802C316C6E02B00E44C9B /* AJRNutritionLabelCalculation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

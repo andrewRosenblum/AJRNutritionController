@@ -5,6 +5,7 @@ Created By Andrew Rosenblum, 2013
 
 Twitter: [@AJRosenblum](https://twitter.com/AJRosenblum)
 
+If you end up using this code in an app, please let me know.  I'd love to see how it's being used :)
 
 About
 ------------------------

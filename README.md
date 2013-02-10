@@ -13,6 +13,9 @@ An Objective-C class to present an animated view with nutritional information. T
 
 This code is iOS 5 & 6 compatiable, storybaord and ARC Compatiable.
 
+![My image](http://s3.amazonaws.com/cocoacontrols_production/ios_screens/1625/full.png?1360446212)
+
+
 Using AJRNutritionController
 ------------------
 To use `AJRNutritionController` first copy the following files into your project:

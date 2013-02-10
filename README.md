@@ -32,6 +32,8 @@ To use `AJRNutritionController` first copy the following files into your project
 - `CloseButton.png`
 - `CloseButton@2x.png`
 
+In addition, make sure your project includes the `QuartzCore` framework.
+
 Then in the appropiate method, add the following to initalize the view:
 
     AJRNutritionViewController *controller = [[AJRNutritionViewController alloc] init];

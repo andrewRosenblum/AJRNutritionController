@@ -54,7 +54,7 @@ Finally present the view:
 Check out the included demo for an example
 
 
-Liscense
+License
 --------------
 This code is published under BSD Simplified:
 

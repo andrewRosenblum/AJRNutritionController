@@ -12,7 +12,7 @@ About
 
 An Objective-C class to present an animated view with nutritional information. The view mimics the nutrition label seen on commercial goods.
 
-This code is iOS 5 & 6 compatiable, storybaord and ARC Compatiable.
+This code is iOS 5 & 6 compatible, storybaord and ARC Compatible.
 
 ![My image](http://s3.amazonaws.com/cocoacontrols_production/ios_screens/1625/full.png?1360446212)
 
